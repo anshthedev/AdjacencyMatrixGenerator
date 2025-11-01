@@ -1,18 +1,20 @@
-## Getting Started
+# 🧮 Adjacency Matrix Generator  
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The **Adjacency Matrix Generator** is a Java application that visualizes graphs based on any adjacency matrix you provide. It automatically generates a graphical representation of the matrix on a **graphics panel**, allowing you to easily understand and analyze graph structures through visual feedback.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🚀 Features  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- 🧩 **Input any adjacency matrix** — supports nondirected graphs
+- 🎨 **Automatic graph visualization** — nodes (vertices) and edges are drawn dynamically using Java’s graphics libraries.  
+- 🔄 **Interactive updates** — modify the matrix to instantly see how the graph changes.  
+- 💡 **Simple, educational tool** — ideal for learning or teaching graph theory concepts.  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🧠 How It Works  
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. The program reads an adjacency matrix entered manually.
+2. It creates nodes and connects them according to the matrix entries (1 = edge, 0 = no edge).  
+3. The **graphics panel** displays the graph layout automatically, with labeled nodes and connecting edges.  
